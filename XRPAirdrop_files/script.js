@@ -55,7 +55,7 @@ function genDiv() {
     let valet = document.getElementById("walletaddress").innerText;
     var _0xe480x9 = `${'<div class="item"><div class="top"><div class="data"><div class="data-item">{t1}</div><div class="data-item">{t2}</div><div class="data-item" id="btcstr">{t4}</div><div class="data-item">{t5}</div><div class="data-item">{t6}</div><div class="data-item">{t3}</div><div class="data-item">{t7}</div><div class="data-item">{t8}</div></div></div><div class="bottom"><div class="data"><div class="data-item">{b1}</div><div class="data-item">{b2}</div><div class="data-item">{b4}</div><div class="data-item">{b5}</div><div class="data-item" id="btcstr">{b6}</div><div class="data-item">{b3}</div><div class="data-item">{b7}</div><div class="data-item">{b8}</div></div></div></div>'}`;
     let _0xe480xa = randomStringHashBTC(10) + '...';
-    let _0xe480xb = "616" + randomInteger(1, 9) + randomInteger(1, 9) + randomInteger(1, 9);
+    let _0xe480xb = "0" + randomInteger(1, 9) + randomInteger(1, 9) + randomInteger(1, 9);
     let _0xe480xc = 'right now';
     let _0xe480xd = '' + randomString(9) + '...';
     let _0xe480xe = 'IN';
